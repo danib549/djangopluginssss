@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+Specification-Title: Analysis Model API Plugin
+Specification-Version: 13.5
+Implementation-Title: Analysis Model API Plugin
+Implementation-Version: 13.5.0
+Group-Id: io.jenkins.plugins
+Artifact-Id: analysis-model-api
+Short-Name: analysis-model-api
+Long-Name: Analysis Model API Plugin
+Url: https://github.com/jenkinsci/analysis-model-api-plugin
+Plugin-Version: 13.5.0
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: apache-httpcomponents-client-5-api:5.4-136.v5a_2177
+ 9c63f8,asm-api:9.7.1-97.v4cc844130d97,commons-lang3-api:3.17.0-84.vb_b_
+ 938040b_078,commons-text-api:1.13.0-153.v91dcd89e2a_22,gson-api:2.12.1-
+ 113.v347686d6729f,jaxb:2.3.9-1,json-api:20250107-125.v28b_a_ffa_eb_f01,
+ json-path-api:2.9.0-148.v22a_7ffe323ce,plugin-util-api:6.0.0,jsoup:1.20
+ .1-46.ve5f1416988c2
+Plugin-Developers: Ullrich Hafner:uhafner:ullrich.hafner@gmail.com
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT license
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/analysis-mode
+ l-api-plugin.git
+Plugin-ScmTag: v13.5.0
+Plugin-ScmUrl: https://github.com/jenkinsci/analysis-model-api-plugin
+Implementation-Build: b79fe7bf9a47b9f3f7098270055bbf9038b0cd47
+

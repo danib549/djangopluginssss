@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Jenkins Active Directory plugin
+Specification-Version: 2.40
+Implementation-Title: Jenkins Active Directory plugin
+Implementation-Version: 2.40
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: active-directory
+Short-Name: active-directory
+Long-Name: Jenkins Active Directory plugin
+Url: https://github.com/jenkinsci/active-directory-plugin
+Compatible-Since-Version: 2.0
+Plugin-Version: 2.40
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: caffeine-api:3.2.0-166.v72a_6d74b_870f,ionicons-api
+ :82.v0597178874e1,configuration-as-code:1958.vddc0d369b_e16;resolution:
+ =optional,mailer:489.vd4b_25144138f
+Plugin-Developers: Kohsuke Kawaguchi:kohsuke:,Felix Belzunce Arcos:fbelz
+ unc:
+Plugin-License-Name: The MIT license
+Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/active-direct
+ ory-plugin.git
+Plugin-ScmTag: active-directory-2.40
+Plugin-ScmUrl: https://github.com/jenkinsci/active-directory-plugin
+Implementation-Build: 2511202dc47c423dcfc9b23d24c7f43f7a2e2820
+

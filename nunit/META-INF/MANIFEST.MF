@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Jenkins NUnit plugin
+Specification-Version: 0.0
+Implementation-Title: Jenkins NUnit plugin
+Implementation-Version: 571.v30a_1e3f86709
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: nunit
+Short-Name: nunit
+Long-Name: Jenkins NUnit plugin
+Url: https://github.com/jenkinsci/nunit-plugin
+Plugin-Version: 571.v30a_1e3f86709
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: junit:1316.v13ec14a_de230,structs:338.v848422169819
+Plugin-Developers: 
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/nunit-plugin.
+ git
+Plugin-ScmTag: 30a1e3f86709a1320c337495af770bfd147a4911
+Plugin-ScmUrl: https://github.com/jenkinsci/nunit-plugin
+Implementation-Build: 30a1e3f86709a1320c337495af770bfd147a4911
+

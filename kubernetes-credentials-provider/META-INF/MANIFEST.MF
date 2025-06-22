@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Kubernetes Credentials Provider
+Specification-Version: 0.0
+Implementation-Title: Kubernetes Credentials Provider
+Implementation-Version: 1.281.v331e3f5a_05a_9
+Group-Id: com.cloudbees.jenkins.plugins
+Artifact-Id: kubernetes-credentials-provider
+Short-Name: kubernetes-credentials-provider
+Long-Name: Kubernetes Credentials Provider
+Url: https://jenkinsci.github.io/kubernetes-credentials-provider-plugin/
+Plugin-Version: 1.281.v331e3f5a_05a_9
+Hudson-Version: 2.504.1
+Jenkins-Version: 2.504.1
+Plugin-Dependencies: hashicorp-vault-plugin:368.v48134f694db_f;resolutio
+ n:=optional,aws-credentials:245.v8a_1b_7c11a_94d;resolution:=optional,c
+ redentials:1415.v831096eb_5534,docker-commons:451.vd12c371eeeb_3;resolu
+ tion:=optional,github-branch-source:1815.v9152b_2ff7a_1b_;resolution:=o
+ ptional,kubernetes-client-api:6.10.0-251.v556f5f100500,openstack-cloud:
+ 1456.v1c7380506a_ed;resolution:=optional,plain-credentials:195.vb_906e9
+ 073dee;resolution:=optional,ssh-credentials:355.v9b_e5b_cde5003;resolut
+ ion:=optional,variant:70.va_d9f17f859e0
+Plugin-Developers: James Nord:teilo:,Steve Arch:agentgonzo:
+Plugin-License-Name: MIT License
+Plugin-License-Url: http://www.opensource.org/licenses/mit-license.php
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/kubernetes-cr
+ edentials-provider-plugin.git
+Plugin-ScmTag: 331e3f5a05a9d710b271cd30a7186c70e64739f9
+Plugin-ScmUrl: https://github.com/jenkinsci/kubernetes-credentials-provi
+ der-plugin
+Implementation-Build: 331e3f5a05a9d710b271cd30a7186c70e64739f9
+

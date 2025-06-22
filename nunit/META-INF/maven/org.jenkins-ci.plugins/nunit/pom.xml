@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jenkins-ci.plugins</groupId>
+  <artifactId>nunit</artifactId>
+  <version>571.v30a_1e3f86709</version>
+  <packaging>hpi</packaging>
+  <name>Jenkins NUnit plugin</name>
+  <description>Allows handling NUnit results similar to how JUnit results are handled</description>
+  <url>https://github.com/jenkinsci/nunit-plugin</url>
+  <inceptionYear>2016</inceptionYear>
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/nunit-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/nunit-plugin.git</developerConnection>
+    <tag>30a1e3f86709a1320c337495af770bfd147a4911</tag>
+    <url>https://github.com/jenkinsci/nunit-plugin</url>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>junit</artifactId>
+      <version>1316.v13ec14a_de230</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>structs</artifactId>
+      <version>338.v848422169819</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.jenkins-ci.tools</groupId>
+        <artifactId>maven-hpi-plugin</artifactId>
+        <version>3.61</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

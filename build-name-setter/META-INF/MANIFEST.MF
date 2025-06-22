@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Build Name and Description Setter
+Specification-Version: 2.5
+Implementation-Title: Build Name and Description Setter
+Implementation-Version: 2.5.0
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: build-name-setter
+Short-Name: build-name-setter
+Long-Name: Build Name and Description Setter
+Url: https://github.com/jenkinsci/build-name-setter-plugin
+Plugin-Version: 2.5.0
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: matrix-project:845.vffd7fa_f27555,token-macro:444.v
+ 52de7e9c573d
+Plugin-Developers: Damian Szczepanik:damianszczepanik:damianszczepanik@g
+ ithub,Kohsuke Kawaguchi:kohsuke:kkawaguchi@cloudbees.com,Lev Mishin:Le0
+ :leomichine@gmail.com
+Plugin-License-Name: MIT
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/build-name-se
+ tter-plugin.git
+Plugin-ScmTag: build-name-setter-2.5.0
+Plugin-ScmUrl: https://github.com/jenkinsci/build-name-setter-plugin
+Implementation-Build: ef097acb1de090944337c9ee821420ec09645ccc
+
